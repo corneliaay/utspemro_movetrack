@@ -1,0 +1,77 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#F3F6FB">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Target Aktivitas"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#183B56"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Atur target olahraga harianmu!"
+        android:textSize="15sp"
+        android:textColor="#66788A"
+        android:layout_marginBottom="28dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Target durasi (menit)"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#183B56"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/etTargetMinutes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contoh: 30"
+        android:inputType="number"
+        android:padding="14dp"
+        android:backgroundTint="#183B56"/>
+
+    <Button
+        android:id="@+id/btnSaveTarget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Simpan Target"
+        android:textAllCaps="false"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#183B56"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:id="@+id/tvTargetResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Target harianmu: 30 menit"
+        android:textSize="17sp"
+        android:textColor="#183B56"
+        android:padding="16dp"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/btnBackTarget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kembali ke Beranda"
+        android:textAllCaps="false"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#66788A"
+        android:textColor="#FFFFFF"/>
+
+</LinearLayout>
